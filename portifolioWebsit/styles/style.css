@@ -1,0 +1,253 @@
+/* 1. resetting default styles for all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 2rem !important;
+}
+
+/* 2. styling for the Navigator bar */
+nav {
+    background-color: rebeccapurple;
+    padding: 2rem;
+    box-shadow: 0px 0pix 5px rgb(173, 230, 201);
+    position: fixed;
+    width: 100%;
+}
+
+/* 3. styling for the header within the Navigator bar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+/* 4. styling for the h3 element within the header */
+header > h3 {
+    font-weight: bold;
+}
+
+/* 5. styling for the container of navigator links*/
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+/* 6. styling for individual  navigation list*/
+.nav-links > a {
+    text-decoration: none;
+    color: black;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+
+/* 7. styling for navigator links on hover*/
+.nav-links > a:hover {
+    color : rgb(57, 100, 17)
+}
+
+/* 8.styling for the home content section*/
+.home-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* 9. styling for the image within the home content*/
+.home-content > img {
+    height: 500px;
+}
+
+/* 10. styling for home description section*/
+.home-desc {
+    width: 50%;
+}
+
+/*11. styling for the h3 element within the home description*/
+.home-desc > h3 {
+    font-size: 2rem;
+    margin-bottom: 1.2rem;
+    color: rgb(0,110,225);
+}
+
+/* 12. styling for paragraphs within the home description*/
+.home-desc > p {
+    margin-bottom: 2rem;
+    line-height: 1.5rem;
+}
+
+/* 13. styling for the button within a link in the home description*/
+.home-desc a > button {
+    padding: 0.7rem 2rem;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border: 1pix solid rgb(173, 230, 201);
+    border-radius: 8px;
+    color: rgb(0,110,225);
+    cursor: pointer;
+}
+
+/*14. styling for the button on hover within the home description*/
+.home-desc a > button:hover {
+    background-color: blue;
+    border:  1pix solid blue;
+    color: whitesmoke;
+} 
+
+/* 15. Styling for the about content section*/
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: auto;
+    height: 90vh;
+    padding-top: 10rem !important;
+}
+
+/* 16. styling for the h3 element within the about content*/
+.about-content > h3 {
+    color: azure;
+    font-size: 4rem;
+}
+
+/* 17. styling for the about description*/
+.about-desc {
+    width: 50%;
+}
+
+/* 18. styling for the h3 element within the about description*/
+.about-desc > h3 {
+    color: azure;
+    margin-bottom: 2rem;
+}
+
+/* 19. styling for paragraphs within the about description*/
+.about-desc > p {
+    margin-bottom: 2rem;
+}
+
+/* 20. styling for the resume content section*/
+.reume-content {
+    display:flex;
+    justify-content: space-between;
+    width: 90%;
+    margin:auto;
+    padding: 2rem;
+    height: 90vh;
+    padding-top: 10rem !important;
+}
+
+/* 21. styling for the h3 element within the resume content*/
+.reume-content > h3 {
+    color: azure;
+    font-size: 2rem;
+}
+
+/* 22. styling for the resume description section*/
+.resume-desc {
+    width: 50%;
+}
+
+/* 23. styling for the h3 element within the resume description*/
+.resume-desc > h3 {
+    color: azure;
+    margin-bottom: 1.5rem;
+}
+
+/*24. styling for paragraphs within the resume content*/
+.resume-desc > p {
+    margin-bottom: 2rem;
+}
+
+/* 25. styling for list items within resume description*/
+.resume-desc > li {
+    margin-left: 1rem;
+}
+
+/*26. styling for the contact content section*/
+.contact-content {
+    display:flex;
+    justify-content: space-between;
+    width: 90%;
+    margin:auto;
+    padding: 2rem;
+    padding-top: 10rem !important;
+}
+
+/* 27. styling for the h3 element within the contact content */
+.contact-content > h3 {
+    color:rgb(173, 230, 201);
+    font-size: 4rem;
+}
+
+/*styling for the  the contact description*/
+.contact-desc {
+    width: 50%;
+}
+
+/* 29. styling for the h3 element within the contact description*/
+.contact-desc > h3 {
+    color: azure;
+    margin-top: 2rem;
+}
+
+/* 30. styling for the paragraphs within the contact description*/
+.contact-desc > p {
+    margin-bottom: 2rem;
+    font-size: 20px;
+}
+
+/* 31. styling for text input*/
+input[type="text"] {
+    padding: 10px;
+    border: 0;
+    width: 100%;
+    box-shadow: 0 0 15px 4px rgb(0, 0, 0, 0.6);
+}
+
+/* 32. styling for text area input */
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-shadow: 0 0 15px 4px rgb(0, 0, 0, 0.6);
+}
+
+/* 33. styling for the button within the contact form */
+.contact-desc > form > button {
+    padding: 0.7rem 2rem;
+    font-weight: bold;
+    background-color: beige;
+    border: 1px solid red;
+    border-radius: 6px;
+    color: brown;
+    cursor: pointer;
+}
+
+/* 34. styling for the button on hover within the contact form*/
+.contact-desc > form > button:hover {
+    background-color: rgb(0,110,255);
+    border: rgb(0,110,225);
+    color: whitesmoke;
+}
+
+/* 35. styling for the footer section*/
+.footer {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    background-color: rgb(0,110,225);
+}
+
+/* 36. styling for the content within the footer */
+.footer-content {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}

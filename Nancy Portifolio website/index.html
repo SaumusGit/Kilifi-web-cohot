@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Nancy - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="https://kit.fontawesome.com/1988847f1d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="./images/logo.jpg" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Digital Forester</p>
+            <h1>Hi, I am <span>Nancy</span><br> from Ganze</h1>  
+        </div>
+    </div>
+</div>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="./images/Resume (2).jpg" width="400" height="400">
+            </div>
+            <div class="about-col-2">
+                <h1 class="=sub-title">About me</h1>
+                <p>I am an Environmentalist with a background in forestry and so passionate in tree nurseries, am skilled in establishment and management. I can impact skills. </p>
+               
+                <div class="tab-titles">
+                    <P class="tab-links active-link" onclick="opentab('skills')">Skills</P>
+                    <P class="tab-links"onclick="opentab('experience')">Experience</P>
+                    <P class="tab-links onclick="opentab('education')">Education</P>
+                </div>
+                </div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Web Technology</span><br>Designing Web/App</li>
+                        <li><span>Tree Nursery etablishment</span><br>impacting skills on Tree nursery <br>establishment and management</li>
+                        <li><span>Data Base</span><br>Data science and management</li>
+                    </ul>
+                </div>
+                </div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021- current</span><br>program manager at ANO</li>
+                        <li><span>2016- 2021</span><br>Facilitator at GA</li>
+                        <li><span>2014- 2016</span><br>Senior Technical manager at TBPT</li>
+                    </ul>
+                </div>
+                </div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>software development at PLP</li>
+                        <li><span>2020- Date</span><<br>MA Environmental Planning & Management at UON</li>
+                        <li><span>2007</span><br>BSc. Forestry from Moi university</li>
+                    </ul>
+                </div
+            </div>
+        </div>
+    <div>    
+</div>
+<!-------- services--------->
+<div id="services">
+    <div class="container">
+        <h1 class="=sub-title">My services</h1>
+        <div class="services-list">
+            </div>
+            <i class="fa-regular fa-code"></i>
+                <h2> Web Design</h2>
+                <P>I am a junior Developer.I've been learning programming for two month now</P>
+                <a href="#">learn more</a>
+            </div>
+            </div>
+            <i class="fa-sharp fa-thin fa-trees"></i>
+                <h2>Tree Nursery Establishment and management</h2>
+                <P> I am a trainer and consultant on tree nursery establishment and management for over 10 years</P>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <h2>NBS Expert</h2>
+                <P>I am a consultant on Nature Base Solution and any other climate change and environmental related services</P>
+                <a href="#">learn more</a>
+            </div>
+        </div> 
+    </div>
+</div>
+</div>
+<!----------------Directory------->
+<div id="Directory">
+    <div class="container">
+        <h1 class= "sub-title"> My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="./images/work1.jpg">
+                <div class="layer">
+                    <h3>Tree Nursery online academy</h3>
+                    <p>this will help you get hand-on skills on establishingand managing a Tree nursery</p>
+                </div>
+            </div>
+            </div>
+            <div class="work">
+                <img src="./images/work2.jpg">
+            </div>
+            <div class="layer">
+                <h3>climate change and environmental services</h3>
+                <p>this will help you geta assistance in developing proposals for environment and climatechange topics</p>
+            </div>
+            </div>
+            </div>
+        </div>
+        <a href="#" class="=btn">see more</a>
+    </div>
+</div>
+<!-- ----contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p>nan.saumus@gmail.com</p>
+                <p>0710239205</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="./images/Nancy Pite CV Revised .pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input name="Message" rows="6" placeholder="Your message"><textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Built by Nancy Saumu. Made with <i class="fa-sharp fa-solid fa-heart"></i></p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>    
+
+</body>
+</html>
+ 

@@ -56,15 +56,15 @@ nav ul li a:hover::after{
     width: 100%;
 }
 .header-text{
-    margin-top: 10%;
-    font-size: 30px;
+    margin-top: 5%;
+    font-size: 20px;
 }
 .header-text h1{
     font-size: 40px;
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .header-text h1 span{
-    color: blue;
+    color: rgb(29, 3, 23);
 }
 /*-------about----------*/
 #about{
@@ -78,7 +78,7 @@ nav ul li a:hover::after{
   }
 
 .about-col-1{
-    flex: basis 35%;
+    flex-basis: 35%;
 }
 .about-col-1 img{
     width: 100%;
@@ -96,7 +96,7 @@ nav ul li a:hover::after{
 
 .tab-titles{
     display: flex;
-    margin: 20px 0 40px;
+    margin: 10px 0 20px;
 }
 .tab-links{
     margin-right: 50px;
@@ -121,11 +121,11 @@ nav ul li a:hover::after{
 }
 
 .tab-contents ul li{
-    list-style: none;
+    list-style-type: none;
     margin: 10px 0;
 }
 .tab-contents ul li span{
-    color: rgb(134, 54, 134);
+    color: rgb(226, 198, 38);
     font-size: 14px;
 }
 .tab-contents{
@@ -150,7 +150,7 @@ nav ul li a:hover::after{
     padding: 40px;
     font-size: 13px;
     font-weight: 300;
-    border-radius:  10px;
+    border-right: 10px;
     transition: background 0.5s, transform 0.5s;
 }
 .services-list div i{
@@ -189,13 +189,14 @@ nav ul li a:hover::after{
     overflow: hidden;
 }
 .work img{
-    width: 100%;
+    width: 60%;
+    justify-content: space-between;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
 }
 .layer{
-    width: 100%;
+    width: 80%;
     height: 0;
     background: linear-gradient(rgba(0,0,0,0.6), #ff004f);
     border-radius: 10px;
